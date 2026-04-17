@@ -1,16 +1,56 @@
-# React + Vite
+# 🚀 PixelFlow
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**PixelFlow** is a premium media discovery engine built for creators, designers, and developers. It provides a unified interface to search and save high-quality Photos, Videos, and GIFs using industry-leading APIs.
 
-Currently, two official plugins are available:
+### 🔗 [Live Demo](https://pixel-flow-theta.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Multi-Source Search:** Fetch data from Unsplash (Photos), Pexels (Videos), and Giphy (GIFs/Stickers).
+- **Modern UI/UX:** Responsive design featuring 3D hover effects, glassmorphism, and a sleek dark theme.
+- **Persistent Collections:** Save your favorite media to a personal collection using Redux Toolkit and LocalStorage.
+- **Optimized Performance:** Fast loading times via Vite and smart asset handling.
+- **Responsive Layout:** Perfectly tailored experience for Mobile, Tablet, and Desktop.
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Framework:** [React 18](https://reactjs.org/)
+- **State Management:** [Redux Toolkit](https://redux-toolkit.js.org/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Routing:** [React Router Dom](https://reactrouter.com/)
+- **Deployment:** [Vercel](https://vercel.com/)
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js (v16 or higher)
+- npm or yarn
+
+### Installation
+1. Clone the repo:
+   ```bash
+   git clone [https://github.com/your-username/pixel-flow.git](https://github.com/your-username/pixel-flow.git)
+
+2. Install dependencies:
+    npm install
+
+3. Create a .env file in the root directory and add your keys:
+    VITE_PEXELS_API_KEY=your_key
+    VITE_GIPHY_API_KEY=your_key
+    VITE_UNSPLASH_API_KEY=your_key
+
+4. Run the project:
+    npm run dev
+
+## 📂 Project Structure:
+
+src/
+ ┣ api/            # API fetching logic
+ ┣ components/     # Reusable UI components
+ ┣ pages/          # Home and Collection views
+ ┣ redux/          # Store and Slices
+ ┗ App.jsx         # Main routing logic
+
+ Built with ❤️ by Mohammad Islam
