@@ -34,14 +34,17 @@
    git clone [https://github.com/your-username/pixel-flow.git](https://github.com/your-username/pixel-flow.git)
 
 2. Install dependencies:
+   ```bash
     npm install
 
 3. Create a .env file in the root directory and add your keys:
+   ```bash
     VITE_PEXELS_API_KEY=your_key
     VITE_GIPHY_API_KEY=your_key
     VITE_UNSPLASH_API_KEY=your_key
 
 4. Run the project:
+   ```bash
     npm run dev
 
 ## 📂 Project Structure:
