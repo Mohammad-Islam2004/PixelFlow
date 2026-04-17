@@ -49,7 +49,7 @@
 
 ## 📂 Project Structure:
 
--src/
+- src/
 - ┣ api/            # API fetching logic
 - ┣ components/     # Reusable UI components
 - ┣ pages/          # Home and Collection views
