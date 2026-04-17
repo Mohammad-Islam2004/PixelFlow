@@ -49,11 +49,11 @@
 
 ## 📂 Project Structure:
 
-src/
- ┣ api/            # API fetching logic
- ┣ components/     # Reusable UI components
- ┣ pages/          # Home and Collection views
- ┣ redux/          # Store and Slices
- ┗ App.jsx         # Main routing logic
+-src/
+- ┣ api/            # API fetching logic
+- ┣ components/     # Reusable UI components
+- ┣ pages/          # Home and Collection views
+- ┣ redux/          # Store and Slices
+- ┗ App.jsx         # Main routing logic
 
  Built with ❤️ by Mohammad Islam
